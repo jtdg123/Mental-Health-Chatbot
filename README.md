@@ -1,28 +1,14 @@
-# Mental-Health-Chatbot
-# 🧠 Intelligent Mental Health Chatbot  
-### A New Intelligent Mental Health Chatbot Using Natural Language Processing and Sentiment Analysis
+# Mental Health Chatbot (Lightweight NLP + Sentiment Classifier)
 
-This project is a research prototype of a mental health–support chatbot that uses **Natural Language Processing (NLP)** and **sentiment analysis** to produce empathetic responses and detect emotionally critical language.
+This project implements a lightweight intelligent mental health chatbot using:
 
-It is created as part of a research project following IEEE paper guidelines.
+- TF-IDF vectorization  
+- Logistic Regression sentiment classification  
+- Simple rule-based intent detection  
+- Template-based mental health responses  
+- Flask web interface + terminal interface  
 
----
+## Quick Start
 
-## 🌟 Features
-
-- 🗨️ **Interactive web-based chat interface**  
-- 🧠 **Sentiment Analysis** using NLTK’s VADER  
-- 🔍 **Intent Detection** for:
-  - depression-related language  
-  - anxiety-related language  
-  - suicidal intent  
-  - greetings & farewell  
-  - help requests  
-- ❤️ **Empathetic response generation**  
-- 🚨 **Crisis escalation messages** with mental health resources  
-- 🧩 **Modular code structure** (easy to extend)
-
----
-
-## 📁 Project Structure
+### 1. Create & activate environment
 
