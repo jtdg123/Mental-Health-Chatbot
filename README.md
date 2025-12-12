@@ -121,13 +121,13 @@ http://127.0.0.1:5000
 You will see the chatbot interface where you can type messages and receive AI-powered responses.
 
 🧠 How the Chatbot Works
-1. ML Model Prediction
+##1. ML Model Prediction
 
 A TF-IDF vectorizer converts text into numeric features
 
 Logistic Regression predicts anxiety, depression, or stress
 
-2. Sentiment Analysis
+##2. Sentiment Analysis
 
 VADER sentiment analyzer evaluates:
 
@@ -147,7 +147,7 @@ moderate
 
 severe emotional intensity
 
-3. Keyword Safety Net
+##3. Keyword Safety Net
 
 Keyword matching identifies:
 
@@ -157,7 +157,7 @@ burnout indicators
 
 crisis phrases
 
-4. Crisis Detection
+##4. Crisis Detection
 
 If suicide-related phrases appear, the bot responds with:
 
@@ -181,7 +181,7 @@ Validation Accuracy: 90%
 
 Graphs and confusion matrices are included in the paper and presentation.
 
-📄 Research Paper + Presentation
+#📄 Research Paper + Presentation
 
 This project includes:
 
@@ -193,21 +193,21 @@ Training logs and model graphs
 
 Available in the repository under docs/ (optional).
 
-⚠️ Disclaimer
+#⚠️ Disclaimer
 
 This chatbot is NOT a medical or therapeutic substitute.
 It is for educational and research purposes only.
 If someone is in immediate danger, they should dial:
 
 988 — Suicide & Crisis Lifeline
-🙌 Credits
+#🙌 Credits
 
 Developed by:
 Jericho Gutlay
 Georgia State University
 Department of Computer Science
 
-⭐ Want to Improve This Project?
+#⭐ Want to Improve This Project?
 
 Here are optional enhancements:
 
@@ -221,7 +221,7 @@ Add chatbot memory & multi-turn context
 
 Deploy to a public server (Render, Heroku, etc.)
 
-📬 Contact
+#📬 Contact
 
-For academic or technical questions:
+#For academic or technical questions:
 📧 jgutlay1@gsu.edu
