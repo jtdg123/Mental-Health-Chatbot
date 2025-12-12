@@ -54,7 +54,9 @@ Follow these steps to run the chatbot on your local machine.
 git clone https://github.com/YOUR_USERNAME/Mental-Health-Chatbot
 cd Mental-Health-Chatbot
 
-2. Create a Virtual Environment
+---
+
+### **2. Create a Virtual Environment**
 
 Windows (PowerShell):
 
