@@ -59,32 +59,34 @@ cd Mental-Health-Chatbot
 ### **2. Create a Virtual Environment**
 
 Windows (PowerShell):
-
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 Mac/Linux:
-
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 If PowerShell blocks activation:
 
 Set-ExecutionPolicy -Scope CurrentUser Unrestricted
 
 3. Install Dependencies
+```
 pip install -r requirements.txt
-
+```
 
 Download the VADER lexicon:
 
 python
+```
 >>> import nltk
 >>> nltk.download('vader_lexicon')
 >>> exit()
-
+```
 🤖 Training the Machine Learning Model
 
 Run this script once to generate:
@@ -93,27 +95,28 @@ models/vectorizer.pkl
 
 models/classifier.pkl
 
+```
 python train_model.py
-
+```
 
 After training, you should see:
-
+```
 Model training complete. Files saved in /models/
-
+```
 
 You can replace the example dataset in train_model.py with your own CSV or expanded dataset.
 
 🚀 Running the Chatbot
 
 Start the Flask server:
-
+```
 python app.py
-
+```
 
 Open your browser:
-
+```
 http://127.0.0.1:5000
-
+```
 
 You will see the chatbot interface where you can type messages and receive AI-powered responses.
 
@@ -221,4 +224,4 @@ Deploy to a public server (Render, Heroku, etc.)
 📬 Contact
 
 For academic or technical questions:
-📧 jg12345@gsu.edu
+📧 jgutlay1@gsu.edu
