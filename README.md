@@ -73,7 +73,7 @@ source venv/bin/activate
 If PowerShell blocks activation:
 
 Set-ExecutionPolicy -Scope CurrentUser Unrestricted
-
+---
 ### 3. **Install Dependencies**
 ```
 pip install -r requirements.txt
@@ -119,7 +119,7 @@ http://127.0.0.1:5000
 ```
 
 You will see the chatbot interface where you can type messages and receive AI-powered responses.
-
+---
 🧠 How the Chatbot Works
 ## **1. ML Model Prediction**
 
