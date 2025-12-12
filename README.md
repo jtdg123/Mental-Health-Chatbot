@@ -74,7 +74,7 @@ If PowerShell blocks activation:
 
 Set-ExecutionPolicy -Scope CurrentUser Unrestricted
 
-###3. **Install Dependencies**
+### 3. **Install Dependencies**
 ```
 pip install -r requirements.txt
 ```
