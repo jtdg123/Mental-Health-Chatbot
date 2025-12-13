@@ -51,7 +51,7 @@ Follow these steps to run the chatbot on your local machine.
 
 ### **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/Mental-Health-Chatbot
+git clone https://github.com/jtdg123/Mental-Health-Chatbot
 cd Mental-Health-Chatbot
 ```
 ---
