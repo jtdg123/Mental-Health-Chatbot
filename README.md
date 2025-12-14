@@ -80,8 +80,9 @@ pip install -r requirements.txt
 ```
 
 Download the VADER lexicon:
-
+```
 python
+```
 ```
 >>> import nltk
 >>> nltk.download('vader_lexicon')
