@@ -85,7 +85,11 @@ python
 ```
 ```
 >>> import nltk
+```
+```
 >>> nltk.download('vader_lexicon')
+```
+```
 >>> exit()
 ```
 🤖 Training the Machine Learning Model
@@ -101,9 +105,7 @@ python train_model.py
 ```
 
 After training, you should see:
-```
 Model training complete. Files saved in /models/
-```
 
 You can replace the example dataset in train_model.py with your own CSV or expanded dataset.
 
